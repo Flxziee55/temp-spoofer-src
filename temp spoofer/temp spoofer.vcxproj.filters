@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="mapper">
+      <UniqueIdentifier>{5c39d0a0-3e41-4123-8f46-453f319316e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{c0fd3f4e-9dbc-420d-ab93-cc659bed965d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="temp spoofer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\kdmapper.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\intel_driver.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\utils.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\service.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\KDSymbolsHandler.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\portable_executable.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Έγγραφα\kdmapper-master\kdmapper\include\intel_driver.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Έγγραφα\kdmapper-master\kdmapper\include\intel_driver_resource.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Έγγραφα\kdmapper-master\kdmapper\include\kdmapper.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Έγγραφα\kdmapper-master\kdmapper\include\nt.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Έγγραφα\kdmapper-master\kdmapper\include\portable_executable.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Έγγραφα\kdmapper-master\kdmapper\include\service.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Έγγραφα\kdmapper-master\kdmapper\include\utils.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\KDSymbolsHandler.h">
+      <Filter>mapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
